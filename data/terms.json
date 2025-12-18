@@ -1,61 +1,14 @@
 {
   "_meta": {
-    "type": "terms",
-    "domain": "animal-welfare-test-1",
-    "inherits": "dahao-org/core-test-1 v1.0.0",
-    "purpose": "Minimize animal suffering through evidence-based ethics",
-    "description": "Animal welfare vocabulary extending DAHAO Core terms.",
-    "version": "1.0.0",
-    "created": "2024-12-13",
-    "updated": "2024-12-13"
+    "updated": "2024-07-30"
   },
   "@sentience": {
-    "version": "1.0.0",
-    "definition": "The capacity to have subjective experiences and feel valenced states such as pain, pleasure, or emotions.",
-    "indicators": {
-      "neurological": [
-        "Nociceptors (pain receptors)",
-        "Opioid receptors",
-        "Central nervous system integration",
-        "Brain structures associated with emotion"
-      ],
-      "behavioral": [
-        "Pain avoidance learning",
-        "Protective behavior when injured",
-        "Trade-off decisions (accepting cost to avoid pain)",
-        "Play behavior",
-        "Tool use",
-        "Problem solving"
-      ],
-      "physiological": [
-        "Stress hormone response (cortisol, corticosterone)",
-        "Emotional fever (stress-induced hyperthermia)",
-        "Wound guarding",
-        "Appetite suppression under stress"
-      ]
-    },
-    "confidence_levels": {
-      "HIGH": "Multiple strong indicators across categories",
-      "MEDIUM": "Some indicators present, others uncertain",
-      "LOW": "Few indicators, mostly behavioral",
-      "UNKNOWN": "Insufficient evidence — apply precautionary principle"
-    },
-    "source": "Cambridge Declaration on Consciousness (2012)"
+    "note": "Sentience assessment is evidence-based and may evolve with new research. When evidence is incomplete, disputed, or low-quality, apply `@precautionary_principle` and treat protection as required.",
+    "version": "1.0.1"
   },
   "@suffering": {
-    "version": "1.0.0",
-    "definition": "A prolonged negative affective state involving distress, pain, or deprivation. Distinct from brief acute pain.",
-    "indicators": [
-      "Elevated cortisol (chronic, not acute)",
-      "Stereotypies (repetitive purposeless behavior)",
-      "Self-mutilation",
-      "Learned helplessness",
-      "Reduced lifespan compared to natural",
-      "Abnormal behavior patterns",
-      "Immune suppression"
-    ],
-    "duration": "Persisting beyond immediate stimulus",
-    "note": "Suffering is what we aim to minimize. See @purpose."
+    "note": "Operational thresholds vary by species/context and should rely on welfare indicators (e.g., `@stress_indicators`) and species profiles; uncertainty triggers `@precautionary_principle`.",
+    "version": "1.0.1"
   },
   "@welfare": {
     "version": "1.0.0",
@@ -168,15 +121,8 @@
     "storage": "data/practices/{name}.json"
   },
   "@ethical_verdict": {
-    "version": "1.0.0",
-    "definition": "Assessment of a practice's alignment with animal welfare principles.",
-    "options": {
-      "ETHICAL": "Does not violate welfare principles; acceptable practice",
-      "UNETHICAL": "Violates one or more welfare principles; should be eliminated",
-      "COMPLEX": "Mixed impacts; requires context and mitigation",
-      "UNKNOWN": "Insufficient evidence; apply precautionary principle"
-    },
-    "determination": "Based on @five_freedoms compliance, @suffering indicators, and @biological_primacy"
+    "note": "Verdicts are operationalized via `@rule_practice_evaluation` (including proportionality). Use `COMPLEX` for mixed-impact/high-benefit cases with mitigation; reserve `UNETHICAL` for elimination-presumptive cases per Five Freedoms and severe/trivial-benefit logic.",
+    "version": "1.0.1"
   },
   "@biological_impact": {
     "version": "1.0.0",
