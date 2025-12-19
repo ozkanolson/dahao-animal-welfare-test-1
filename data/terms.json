@@ -7,7 +7,7 @@
     "description": "Animal welfare vocabulary extending DAHAO Core terms.",
     "version": "1.0.0",
     "created": "2024-12-13",
-    "updated": "YYYY-MM-DD"
+    "updated": "2023-10-26"
   },
   "@sentience": {
     "note": "Sentience assessment is evidence-based and may evolve with new research. When evidence is incomplete, disputed, or low-quality, apply `@precautionary_principle` and treat protection as required.",
@@ -44,7 +44,7 @@
     "source": "Cambridge Declaration on Consciousness (2012)"
   },
   "@suffering": {
-    "note": "Operational thresholds vary by species/context and should rely on welfare indicators (e.g., `@stress_indicators`) and species profiles; uncertainty triggers `@precautionary_principle`.",
+    "note": "Suffering is an adverse subjective experience, typically requiring an intervention to mitigate or prevent. Operational thresholds vary by species/context and should rely on welfare indicators (e.g., `@stress_indicators`) and species profiles; uncertainty triggers `@precautionary_principle`.",
     "version": "1.0.1",
     "definition": "A prolonged negative affective state involving distress, pain, or deprivation. Distinct from brief acute pain.",
     "indicators": [
