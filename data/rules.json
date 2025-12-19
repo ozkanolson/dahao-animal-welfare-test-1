@@ -319,12 +319,19 @@
       " @welfare",
       " @suffering",
       " @practice",
-      " @biological_impact"
+      " @biological_impact",
+      "@welfare",
+      "@suffering",
+      "@practice",
+      "@biological_impact"
     ],
     "implements_principles": [
       " @individual_consideration",
       " @sentience_axiom",
-      " @continuous_improvement"
+      " @continuous_improvement",
+      "@individual_consideration",
+      "@sentience_axiom",
+      "@continuous_improvement"
     ],
     "rationale": "Suffering is an individual experience. Group-level statistics can mask severe individual welfare deficits, contrary to @individual_consideration."
   }
