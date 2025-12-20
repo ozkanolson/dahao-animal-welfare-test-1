@@ -1,18 +1,19 @@
-TITLE: Strengthen @rule_stress_threshold baseline multiplier from 2x to 1.5x for earlier chronic stress detection
-BODY: [THESIS]
+# Strengthen @rule_stress_threshold baseline multiplier from 2x to 1.5x for earlier chronic stress detection
+
+[THESIS]
 
 **Objective**
 Modify `@rule_stress_threshold` in `data/rules.json` to lower the chronic stress detection threshold from `cortisol > baseline × 2` to `cortisol > baseline × 1.5`, enabling earlier identification of welfare concerns before suffering becomes severe.
 
 **Rationale**
 
-1. **Implements @continuous_improvement:** The principle states 'Standards should tighten over time, not loosen' and 'What is acceptable today may be recognized as inadequate tomorrow.' A 2x multiplier was a reasonable starting point, but emerging research indicates that sustained cortisol elevations at 1.5x baseline already indicate compromised welfare states (Mormède et al. 2007; Dickens & Romero 2013).
+1.  **Implements @continuous_improvement:** The principle states 'Standards should tighten over time, not loosen' and 'What is acceptable today may be recognized as inadequate tomorrow.' A 2x multiplier was a reasonable starting point, but emerging research indicates that sustained cortisol elevations at 1.5x baseline already indicate compromised welfare states (Mormède et al. 2007; Dickens & Romero 2013).
 
-2. **Strengthens @precautionary_principle:** Per this locked principle, when suffering is uncertain, we must assume suffering. A lower threshold ensures we catch borderline chronic stress cases rather than waiting for unambiguous distress. The cost of false positives (treating non-suffering animals as suffering) is far lower than the cost of false negatives (failing to protect suffering animals).
+2.  **Strengthens @precautionary_principle:** Per this locked principle, when suffering is uncertain, we must assume suffering. A lower threshold ensures we catch borderline chronic stress cases rather than waiting for unambiguous distress. The cost of false positives (treating non-suffering animals as suffering) is far lower than the cost of false negatives (failing to protect suffering animals).
 
-3. **Aligns with @protection_asymmetry:** Adding protection requires standard consensus; removing it requires supermajority. Strengthening the stress threshold adds protection and should be the default direction of framework evolution.
+3.  **Aligns with @protection_asymmetry:** Adding protection requires standard consensus; removing it requires supermajority. Strengthening the stress threshold adds protection and should be the default direction of framework evolution.
 
-4. **Consistent with @biological_primacy:** Research on HPA axis dysregulation shows that sustained moderate cortisol elevation (1.5x+) correlates with immune suppression, behavioral abnormalities, and reduced welfare outcomes across vertebrate taxa (Sapolsky 2004; Sheriff et al. 2011).
+4.  **Consistent with @biological_primacy:** Research on HPA axis dysregulation shows that sustained moderate cortisol elevation (1.5x+) correlates with immune suppression, behavioral abnormalities, and reduced welfare outcomes across vertebrate taxa (Sapolsky 2004; Sheriff et al. 2011).
 
 **Proposed Change**
 
