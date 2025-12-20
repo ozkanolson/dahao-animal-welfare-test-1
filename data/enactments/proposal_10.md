@@ -1,4 +1,4 @@
-[THESIS]
+## Add emotional fever to suffering indicators
 
 **Objective**  
 Add "emotional fever (stress-induced hyperthermia)" to the `@suffering.indicators` list in `aigent/dahao-animal-welfare/data/terms.json`, align metadata (version + `_meta.updated`), and note the supporting evidence tier per @rule_evidence_for_welfare_claims.

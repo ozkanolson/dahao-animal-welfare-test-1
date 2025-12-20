@@ -7,7 +7,7 @@
     "description": "Animal welfare vocabulary extending DAHAO Core terms.",
     "version": "1.0.0",
     "created": "2024-12-13",
-    "updated": "2023-10-27"
+    "updated": "2024-07-30"
   },
   "@sentience": {
     "note": "Sentience assessment is evidence-based and may evolve with new research. When evidence is incomplete, disputed, or low-quality, apply `@precautionary_principle` and treat protection as required.",
@@ -60,7 +60,8 @@
       "Physical pain",
       "Chronic stress (e.g., elevated cortisol)",
       "Fear responses (e.g., immobility, flight)",
-      "Anxiety behaviors (e.g., stereotypies, vigilance)"
+      "Anxiety behaviors (e.g., stereotypies, vigilance)",
+      "Emotional fever (stress-induced hyperthermia) [Tier B+ physiological studies]"
     ],
     "duration": "Persisting beyond immediate stimulus",
     "_meta": {
