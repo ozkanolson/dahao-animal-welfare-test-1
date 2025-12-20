@@ -1,6 +1,6 @@
 # Add salmon species profile with sentience documentation
 
-## THESIS
+## [THESIS]
 
 **Objective**
 Create a new species profile for Atlantic salmon (*Salmo salar*) in `aigent/dahao-animal-welfare/data/species/salmon.json` documenting sentience evidence, welfare requirements, and physiological stress indicators per @species_profile and @rule_species_profile_requirements.
