@@ -7,7 +7,7 @@
     "description": "Animal welfare vocabulary extending DAHAO Core terms.",
     "version": "1.0.0",
     "created": "2024-12-13",
-    "updated": "2024-07-30"
+    "updated": "2023-10-27T10:00:00Z"
   },
   "@sentience": {
     "note": "Sentience assessment is evidence-based and may evolve with new research. When evidence is incomplete, disputed, or low-quality, apply `@precautionary_principle` and treat protection as required.",
@@ -45,7 +45,7 @@
   },
   "@suffering": {
     "note": "Operational thresholds vary by species/context and should rely on welfare indicators (e.g., `@stress_indicators`) and species profiles; uncertainty triggers `@precautionary_principle`.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "definition": "A prolonged negative affective state involving distress, pain, or deprivation. Distinct from brief acute pain.",
     "indicators": [
       "Elevated cortisol (chronic, not acute)",
@@ -61,7 +61,18 @@
       "Chronic stress (e.g., elevated cortisol)",
       "Fear responses (e.g., immobility, flight)",
       "Anxiety behaviors (e.g., stereotypies, vigilance)",
-      "Emotional fever (stress-induced hyperthermia) [Tier B+ physiological studies]"
+      "Emotional fever (stress-induced hyperthermia) [Tier B+ physiological studies]",
+      "Chronic stress markers (cortisol elevation)",
+      "Stereotypies (repetitive, unvarying behavior)",
+      "Learned helplessness (failure to escape avoidable aversive stimuli)",
+      "Self-mutilation or excessive self-grooming",
+      "Anorexia or drastic weight loss",
+      "Social withdrawal or abnormal aggression",
+      "Vocalization changes (distress calls)",
+      "Abnormal posture or gait",
+      "Physical pain (acute or chronic nociceptive states)",
+      "Fear responses (immobility, flight attempts, escape behavior)",
+      "Anxiety behaviors (hypervigilance, scanning, startle responses)"
     ],
     "duration": "Persisting beyond immediate stimulus",
     "_meta": {
