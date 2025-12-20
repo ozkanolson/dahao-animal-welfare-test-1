@@ -45,7 +45,7 @@
   },
   "@suffering": {
     "note": "Operational thresholds vary by species/context and should rely on welfare indicators (e.g., `@stress_indicators`) and species profiles; uncertainty triggers `@precautionary_principle`.",
-    "version": "1.0.2",
+    "version": "1.0.1",
     "definition": "A prolonged negative affective state involving distress, pain, or deprivation. Distinct from brief acute pain.",
     "indicators": [
       "Elevated cortisol (chronic, not acute)",
@@ -82,7 +82,7 @@
     ],
     "duration": "Persisting beyond immediate stimulus",
     "_meta": {
-      "updated": "2023-10-27"
+      "updated": "YYYY-MM-DD"
     }
   },
   "@welfare": {

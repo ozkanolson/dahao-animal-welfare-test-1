@@ -9,7 +9,7 @@ Add "emotional fever (stress-induced hyperthermia)" to the `@suffering.indicator
 - **Consistency with @biological_primacy:** This is a biological measure (core temperature elevation tied to affective state) backed by peer-reviewed work; governance language should surface it wherever suffering diagnostics are enumerated.
 
 **Proposed Changes**  
-1. In `@suffering.indicators`, add a bullet: `"Emotional fever (stress-induced hyperthermia)"`  
+1. In `@suffering.indicators`, add a bullet: `"Emotional fever (stress-induced hyperthermia)"`.  
 2. Bump `@suffering.version` from `1.0.0` to `1.0.1` and update `_meta.updated` to the date the change lands (per @rule_version_bump / @rule_version_reference).  
 3. Optional but recommended: append a short note citing the evidence tier (Tier B+ physiological studies) so downstream assessments know this indicator meets @rule_evidence_for_welfare_claims.
 
